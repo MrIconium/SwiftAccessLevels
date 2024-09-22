@@ -9,7 +9,10 @@
 import Foundation
 
 let aClass = AClass()
+let anotherClassInTheSameFile = AnotherClassInTheSameFile()
+let anotherClassInAnotherFile = AnotherClassInAnotherFile()
 
 aClass.methodA()
+aClass.methodB()
 
 
